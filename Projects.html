@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Project</title>
+
+    <style>
+*{ margin:0; box-sizing:border-box}
+    .flex-container{
+        display:flex;
+        flex-direction: column;
+
+    }
+    
+.flex-item{
+    padding:10px
+}
+
+.flex-container{ counter-reset:count;}
+.flex-item {counter-increment: count;  }
+.flex-item:before{
+    content:
+    counter(count);
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="row mt-5">     
+            <div class="col-md-6">
+    
+  <img src="img/book1.webp" class="img-fluid ">
+                
+</div>
+            <div class="col-md-6">
+<div class="flex-container mt-5">    
+    <div class="flex-item"><a href="https://shifa-design.github.io/shifaonlineshoppingsite/" target="_blank">Online Shopping site</a></div>    
+    <div class="flex-item"><a target="_blank" href="https://shifa-design.github.io/HospitalManagement/">Hospital Management site</a></div>    
+    <div class="flex-item"><a target="_blank" href="https://shifa-design.github.io/DivineResturant/">Divine Resturantsite</a></div>    
+    <div class="flex-item"><a target="_blank" href="https://shifa-design.github.io/shifaonlineeasystudysite/">Online Tutorial Website</a></div>  
+    <div class="flex-item" > <a target="_blank" href="https://shifa-design.github.io/Project-FirstNew/">
+            IT Website
+
+        </a>
+ </div>
+</div>    
+
+       </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
