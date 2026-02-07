@@ -1,0 +1,64 @@
+html{
+    --color1:#49BBBD;
+    --color2:#F48C06;
+--stroke1:black;
+--black1:#252641;
+--login1:#49BBBD;
+
+}
+body{
+  font:14px ,"Poppins", sans-serif;
+}
+
+.wrap-1{background-color:var(--color1);
+}
+.banner .bx-wrapper{background:transparent; box-shadow: 0 0; border:none;}
+.banner img{float:right;}
+.banner .caption{margin:0 100px 0 35px;}
+.banner .lead{font-size:28px; font-weight:600;}
+.banner p{font-size:16px;}
+
+.info1{color:var(--color1);
+font-size:xx-large
+}
+color1{color:var(--color1)}
+.container{height:auto}
+.nav1{max-width:1160px}
+.hh1{color:var(--color2);
+    font-size: 40px;
+-webkit-text-stroke-color:var(--stroke1);
+-webkit-text-stroke-width:2px;
+}
+.hh2{font-size:40px;
+    -webkit-text-stroke-width:2px;
+-webkit-text-stroke-color:var(--stroke1);
+}
+.b11{background-color:var(--color1)}
+.color1{color:var(--color1)}
+.tight-lines {
+    line-height: 0.9;
+}
+/*.col1{transform:translateX(48px)}
+.col2{transform:translateX(-28px)}*/
+ 
+.icon-list {
+  list-style-type: none;
+}
+.icon-list li.pdf:before{
+    content:url(../img/colS1.webp)
+}
+.icon-list li.doc:before{
+    content:url(../img/colS.webp)
+}
+.icon-list li.png:before{
+    content:url(../img/colS3.webp)
+}
+ .n1{
+    background-color:var(--stroke1)
+}
+
+.log1{
+    background-color: var(--login1);
+}
+
+  
