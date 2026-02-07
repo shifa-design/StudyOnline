@@ -533,26 +533,6 @@ Lorem ipsum, dolor sit voluptatibus vitae, doloremque, dolor blanditiis illo tot
 
 
 
- <section class="seventh">
-<div class=" container mt-5">
-<div class="row">
-  <div class="col-md-12">
-
-<nav>
- <div class="row mx-5 mb-5 ">
- <div class="col-md-2 col-sm-4 mx-3"><button class="link1  pv2">Books</button></div>
-<div class="col-md-2 col-sm-4"><button class="link2 pv2">Overview</button></div>
-<div class="col-md-2 col-sm-4"><button class="link4 pv2">Course</button></div>
-<div class="col-md-2 col-sm-4"><button class="link5 pv2">Membership</button></div>
- </div>
-</nav>
-</div>
-</div>
-
-</div>
-    </section>
-
-
 <div class="wrap-11">
 <div class="container">
 <div class="row">
@@ -832,56 +812,6 @@ Lorem ipsum, dolor sit voluptatibus vitae, doloremque, dolor blanditiis illo tot
 
 
 
-<script>
-document.querySelector(".link1").onclick = function() {
- var ajax = new XMLHttpRequest();
-ajax.open("get", "book.html", true);
-ajax.send();
-ajax.onreadystatechange = function() {
-if (this.readyState == 4 && this.status == 200) {
- var t = this.responseText;
- document.querySelector("#tab2").innerHTML = t;
- }
- }
- }
-
-
-document.querySelector(".link4").onclick = function() {
-  fetch("course1.html").then(i=>i.text()).then( i=>  
-  {
-    const data=i;
-    //console.log(data);
-    document.querySelector("#tab2").innerHTML = data;
- 
-  });                      
-    
- 
-}document.querySelector(".link2").onclick = function() {
-  fetch("notes.html").then(i=>i.text()).then( i=>  
-  {
-    const data=i;
-    //console.log(data);
-    document.querySelector("#tab2").innerHTML = data;
- 
-  });                      
-    
- 
-}
-
-document.querySelector(".link5").onclick = function() {
-  fetch("membership.html").then(i=>i.text()).then( i=>  
-  {
-    const data=i;
-    //console.log(data);
-    document.querySelector("#tab2").innerHTML = data;
- 
-  });                      
-    
- 
-}
-</script>
-
-
     <script>
            
       $(function(){
@@ -905,4 +835,5 @@ document.querySelector(".link5").onclick = function() {
 </body>
 
 </html>
+
 
